@@ -70,3 +70,24 @@ int CounterofC = 0;
 int priceofC = 20;
 int CounterofD = 0;
 int priceofD = 15;
+
+foreach (Product pr in products)
+{
+if (pr.Id == "A" || pr.Id =="a")
+{
+counterofA = counterofA + 1;
+}
+if (pr.Id == "B" || pr.Id == "b")
+{
+counterofB = counterofB + 1;
+}
+if (pr.Id == "C" || pr.Id =="c")
+{
+CounterofC = CounterofC + 1;
+}
+if(pr.Id == "D" || pr.Id =="d")
+{
+CounterofD = CounterofD + 1;
+}
+}
+
