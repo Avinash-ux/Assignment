@@ -1,3 +1,5 @@
+(Product Class:)
+
 namespace Promotion
 {
 public class Product
@@ -28,3 +30,11 @@ switch(id)
  }
  }
     
+(Program.cs)
+
+using System;
+using System.Collections.Generic;
+using System.Dynamic;
+using System.Linq;
+using System.Text;
+
