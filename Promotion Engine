@@ -56,3 +56,6 @@ Product p = new Product(type);
 products.Add(p);
 }
 
+int totalPrice = GetTotalPrice(products);
+Console.WriteLine(totalPrice);
+Console.ReadLine();
